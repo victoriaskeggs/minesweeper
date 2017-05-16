@@ -57,8 +57,7 @@ public class Board {
 		} else if (minesAdj == 1) {
 			return Value.NUM1;
 		} else if (minesAdj == 2) {
-			return Value.NUM2;
-		} else if (minesAdj == 3) {
+			return Value.NUM2;		} else if (minesAdj == 3) {
 			return Value.NUM3;
 		} else if (minesAdj == 4) {
 			return Value.NUM4;
@@ -125,5 +124,4 @@ public class Board {
 			MineFrame._gameWon = true;
 		}
 	}
-
 }
