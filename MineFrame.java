@@ -24,7 +24,7 @@ public class MineFrame extends JFrame {
 		
 		frame.setVisible(true);
 		
-		while (!_gameLost && !_gameWon) { }
+		while (!_gameLost && !_gameWon) { } //do nothing
 		
 		frame.endMinesweeper(panel);
 	}
@@ -54,5 +54,4 @@ public class MineFrame extends JFrame {
 			e1.printStackTrace();
 		}
 	}
-
 }
